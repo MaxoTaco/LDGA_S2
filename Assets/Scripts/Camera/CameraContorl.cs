@@ -41,6 +41,9 @@ public class CameraContorl : MonoBehaviour
         pitch -= mouseY;
         pitch = Mathf.Clamp(pitch, -50f, 50f);
         transform.localRotation = Quaternion.Euler(pitch, 0f, 0f);
+
+
+
     }
 
     public void ResetMouse()
@@ -52,6 +55,9 @@ public class CameraContorl : MonoBehaviour
     public void SetPitch(float newPitch)
     {
         pitch = newPitch;
+
+        Debug.Log($"Pitch: {pitch}");
+        if (pitch > 180f) pitch -= 360f;
         transform.localRotation = Quaternion.Euler(pitch, 0f, 0f);
     }
 }

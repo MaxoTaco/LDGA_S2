@@ -1,55 +1,71 @@
 using UnityEngine;
 using System.Collections;
+using System;
 public class CameraEventLook : MonoBehaviour
 {
-    public Transform cameraTransform; 
-    public Transform eventTarget;      
-    public float moveSpeed = 5f;
+    public Transform cameraTransform;   
+    public Transform playerBody;        
+    public Transform eventTarget;       
     public float rotateSpeed = 5f;
 
     private CameraContorl fpsCamera;
+    private bool eventStarted = false;
 
     void Start()
     {
         fpsCamera = cameraTransform.GetComponent<CameraContorl>();
-     
     }
 
-    public void StartEvent()
+    void Update()
     {
-        if (fpsCamera.isEventActive)
-            StartCoroutine(MoveCameraToTarget());
+        if (Input.GetKeyDown(KeyCode.K) && !eventStarted)
+        {
+            eventStarted = true;
+            StartCoroutine(EventRoutine());
+        }
     }
 
-    private IEnumerator MoveCameraToTarget()
+    private IEnumerator EventRoutine()
     {
         fpsCamera.isEventActive = true;
 
         while (true)
         {
+            Vector3 targetDir = eventTarget.position - cameraTransform.position;
+            Quaternion targetRotation = Quaternion.LookRotation(targetDir);
+
+          
+            cameraTransform.rotation = Quaternion.Slerp(
+                cameraTransform.rotation,
+                targetRotation,
+                rotateSpeed * Time.deltaTime
+            );
+
+            Vector3 targetDirXZ = targetDir;
+            targetDirXZ.y = 0f; // 수평 방향만
+            if (targetDirXZ != Vector3.zero)
+                playerBody.rotation = Quaternion.Slerp(
+                    playerBody.rotation,
+                    Quaternion.LookRotation(targetDirXZ),
+                    rotateSpeed * Time.deltaTime
+                );
+
            
-            Vector3 direction = eventTarget.position - cameraTransform.position;
-            float distance = direction.magnitude;
-
-            if (distance < 0.01f && Quaternion.Angle(cameraTransform.rotation, eventTarget.rotation) < 0.1f)
+            if (Quaternion.Angle(cameraTransform.rotation, targetRotation) < 0.1f)
             {
-                cameraTransform.position = eventTarget.position;
-                cameraTransform.rotation = eventTarget.rotation;
+                cameraTransform.rotation = targetRotation;
 
-               
                 fpsCamera.SetPitch(cameraTransform.localEulerAngles.x);
 
-                fpsCamera.ResetMouse();
                 fpsCamera.isEventActive = false;
+                fpsCamera.ResetMouse(); 
                 break;
             }
 
-           
-            cameraTransform.position += direction.normalized * moveSpeed * Time.deltaTime;
-
-            cameraTransform.rotation = Quaternion.Slerp(cameraTransform.rotation, eventTarget.rotation, rotateSpeed * Time.deltaTime);
-
             yield return null;
         }
+
+        eventStarted = false;
     }
+
 }
