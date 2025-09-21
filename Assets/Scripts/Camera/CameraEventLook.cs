@@ -5,7 +5,7 @@ public class CameraEventLook : MonoBehaviour
 {
     public Transform cameraTransform;   
     public Transform playerBody;        
-    public Transform eventTarget;       
+    //public Transform eventTarget;       
     public float rotateSpeed = 5f;
 
     private CameraContorl fpsCamera;
@@ -15,23 +15,35 @@ public class CameraEventLook : MonoBehaviour
     {
         fpsCamera = cameraTransform.GetComponent<CameraContorl>();
     }
-
-    void Update()
+    private void OnEnable()
     {
-        if (Input.GetKeyDown(KeyCode.K) && !eventStarted)
+        Debug.Log("Enabled");
+        EventManager1.cameraEvent += startEvent;
+    }
+    private void OnDisable()
+    {
+
+        Debug.Log("Disabled");
+        EventManager1.cameraEvent -= startEvent;
+
+    }
+    private void startEvent(Transform target)
+    {
+        if (!eventStarted)
         {
+            Debug.Log("Event started");
             eventStarted = true;
-            StartCoroutine(EventRoutine());
+            StartCoroutine(EventRoutine(target));
         }
     }
 
-    private IEnumerator EventRoutine()
+    private IEnumerator EventRoutine(Transform target)
     {
         fpsCamera.isEventActive = true;
 
         while (true)
         {
-            Vector3 targetDir = eventTarget.position - cameraTransform.position;
+            Vector3 targetDir = target.position - cameraTransform.position;
             Quaternion targetRotation = Quaternion.LookRotation(targetDir);
 
           
@@ -42,7 +54,7 @@ public class CameraEventLook : MonoBehaviour
             );
 
             Vector3 targetDirXZ = targetDir;
-            targetDirXZ.y = 0f; // 수평 방향만
+            targetDirXZ.y = 0f; 
             if (targetDirXZ != Vector3.zero)
                 playerBody.rotation = Quaternion.Slerp(
                     playerBody.rotation,
