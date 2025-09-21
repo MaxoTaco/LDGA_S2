@@ -23,13 +23,7 @@ public class SoundCollider : MonoBehaviour
     {
         audioSource = soundObject.GetComponent<AudioSource>();
         if(audioSource == null)
-            Debug.Log(audioSource);
-        else
-        {
-            
-            Debug.Log("null");
-        }
-      
+            Debug.Log("no audio source found");
     }
 
     public void PlaySound()
