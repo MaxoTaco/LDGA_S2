@@ -13,7 +13,7 @@ public class FlashlightController : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown("f"))
+        if (Input.GetKeyDown("space"))
         {
             flashlightActive = !flashlightActive;
             lightSource.SetActive(flashlightActive);

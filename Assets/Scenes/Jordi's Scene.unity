@@ -1111,10 +1111,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3168796274016092085, guid: 024ded8935f984c4893440917ae9892e, type: 3}
-      propertyPath: mouseSensitivity
-      value: 500
-      objectReference: {fileID: 0}
     - target: {fileID: 4726885801810344897, guid: 024ded8935f984c4893440917ae9892e, type: 3}
       propertyPath: m_Name
       value: Player
@@ -1125,7 +1121,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5938023418300104350, guid: 024ded8935f984c4893440917ae9892e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.37
+      value: -2.61
       objectReference: {fileID: 0}
     - target: {fileID: 5938023418300104350, guid: 024ded8935f984c4893440917ae9892e, type: 3}
       propertyPath: m_LocalPosition.z
