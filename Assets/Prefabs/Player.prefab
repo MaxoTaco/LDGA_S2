@@ -205,6 +205,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 8180642859881289253}
   - {fileID: 2977484585975219471}
   - {fileID: 6950914626527544842}
   - {fileID: 8263174623635659305}
@@ -958,3 +959,94 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1001 &3973115839709261233
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8940344952038481089}
+    m_Modifications:
+    - target: {fileID: 5090242513752980372, guid: 3c3e85785de297747b31f79362a840d0, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 5.010263
+      objectReference: {fileID: 0}
+    - target: {fileID: 5090242513752980372, guid: 3c3e85785de297747b31f79362a840d0, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5.010263
+      objectReference: {fileID: 0}
+    - target: {fileID: 5090242513752980372, guid: 3c3e85785de297747b31f79362a840d0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.2285
+      objectReference: {fileID: 0}
+    - target: {fileID: 5090242513752980372, guid: 3c3e85785de297747b31f79362a840d0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.073239684
+      objectReference: {fileID: 0}
+    - target: {fileID: 5090242513752980372, guid: 3c3e85785de297747b31f79362a840d0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.6045
+      objectReference: {fileID: 0}
+    - target: {fileID: 5090242513752980372, guid: 3c3e85785de297747b31f79362a840d0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9976773
+      objectReference: {fileID: 0}
+    - target: {fileID: 5090242513752980372, guid: 3c3e85785de297747b31f79362a840d0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.06811705
+      objectReference: {fileID: 0}
+    - target: {fileID: 5090242513752980372, guid: 3c3e85785de297747b31f79362a840d0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5090242513752980372, guid: 3c3e85785de297747b31f79362a840d0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5090242513752980372, guid: 3c3e85785de297747b31f79362a840d0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -7.812
+      objectReference: {fileID: 0}
+    - target: {fileID: 5090242513752980372, guid: 3c3e85785de297747b31f79362a840d0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5090242513752980372, guid: 3c3e85785de297747b31f79362a840d0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5615984561938112814, guid: 3c3e85785de297747b31f79362a840d0, type: 3}
+      propertyPath: m_Name
+      value: Flashlight
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5615984561938112814, guid: 3c3e85785de297747b31f79362a840d0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 9222982152643636180}
+  m_SourcePrefab: {fileID: 100100000, guid: 3c3e85785de297747b31f79362a840d0, type: 3}
+--- !u!4 &8180642859881289253 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5090242513752980372, guid: 3c3e85785de297747b31f79362a840d0, type: 3}
+  m_PrefabInstance: {fileID: 3973115839709261233}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8848636458295037087 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5615984561938112814, guid: 3c3e85785de297747b31f79362a840d0, type: 3}
+  m_PrefabInstance: {fileID: 3973115839709261233}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &9222982152643636180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8848636458295037087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 916743c06b1915849b18a66cf4be8012, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FlashlightController
+  lightSource: {fileID: 1427658569066410936}
