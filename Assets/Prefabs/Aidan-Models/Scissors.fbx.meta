@@ -3,7 +3,32 @@ guid: fdbe7339780e8c54b8e9b895ef3c5931
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Computer_Stuff_Substance_Tool_3_Texture_BaseColor.1001
+    second: {fileID: 2800000, guid: eebeffc04f5a4f84b8db8e047af466ef, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Computer_Stuff_Substance_Tool_3_Texture_Height.1001
+    second: {fileID: 2800000, guid: 5b2b60a379b2b9640bf99a1dd2d7acc4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Computer_Stuff_Substance_Tool_3_Texture_Metallic.1001
+    second: {fileID: 2800000, guid: 79fd33cc008d25f41971a52d30b76035, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Computer_Stuff_Substance_Tool_3_Texture_Normal.1001
+    second: {fileID: 2800000, guid: 50a91114e68364843b7e72cc8163b7ff, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Computer_Stuff_Substance_Tool_3_Texture_Roughness.1001
+    second: {fileID: 2800000, guid: f07971f725104a241942340e0df90991, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

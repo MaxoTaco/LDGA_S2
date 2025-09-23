@@ -3,7 +3,12 @@ guid: 7ce5b6599950285409e67b12a6f678b2
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ceiling_Main_Texture
+    second: {fileID: 2100000, guid: e96b1e999c6fc11458c326053cd13a1c, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

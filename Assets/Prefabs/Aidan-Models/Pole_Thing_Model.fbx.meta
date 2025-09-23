@@ -3,7 +3,32 @@ guid: 539a691f913facd4a9bb91cbe463566b
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pole_Thing_Revised_Pole_Thingy1_BaseColor.1001
+    second: {fileID: 2800000, guid: e86572d1ba202344399df458f4007b5c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pole_Thing_Revised_Pole_Thingy1_Height.1001
+    second: {fileID: 2800000, guid: bbb8b76ba7ecbbe4ea611f089eb49658, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pole_Thing_Revised_Pole_Thingy1_Metallic.1001
+    second: {fileID: 2800000, guid: ae38ca4732c67fc4b99802535a9be9f9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pole_Thing_Revised_Pole_Thingy1_Normal.1001
+    second: {fileID: 2800000, guid: 5e99f1c20d498734d82bb3b0269753db, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pole_Thing_Revised_Pole_Thingy1_Roughness.1001
+    second: {fileID: 2800000, guid: d5ddfdd4c452af043b54fe1a8f6b9678, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

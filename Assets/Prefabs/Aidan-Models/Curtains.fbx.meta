@@ -3,7 +3,32 @@ guid: bf17e6fc43217974ebd7693da5c35b34
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Revised_walls_Substance_Curtain_texture_BaseColor.1001
+    second: {fileID: 2800000, guid: 12047e233b9e0a04c9f37026d4695cdd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Revised_walls_Substance_Curtain_texture_Height.1001
+    second: {fileID: 2800000, guid: 4c00acd3682f7544a9817461a1f22fef, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Revised_walls_Substance_Curtain_texture_Metalness.1001
+    second: {fileID: 2800000, guid: 0dfdae210b7c0f142bf3c605cf04ec4d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Revised_walls_Substance_Curtain_texture_Normal.1001
+    second: {fileID: 2800000, guid: 5be7cea72a20941489813f853cabe04c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Revised_walls_Substance_Curtain_texture_Roughness.1001
+    second: {fileID: 2800000, guid: acdab9e99a1bd6f4d8017944003379a6, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

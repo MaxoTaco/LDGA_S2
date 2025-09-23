@@ -3,7 +3,32 @@ guid: d6611a3b46266824bbca549f96499711
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Computer_Stuff_Substance_Moniter_Large_BaseColor.1001
+    second: {fileID: 2800000, guid: 0a1fc5e62c8abfd4fb4ced345490cb91, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Computer_Stuff_Substance_Moniter_Large_Height.1001
+    second: {fileID: 2800000, guid: 15536d0caa0064e4b82d71614f13d0c1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Computer_Stuff_Substance_Moniter_Large_Metallic.1001
+    second: {fileID: 2800000, guid: 45e4e696e6b5c734b88830992f4332cc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Computer_Stuff_Substance_Moniter_Large_Normal.1001
+    second: {fileID: 2800000, guid: 719b81d86061a634c8b225e69d7c2c3a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Computer_Stuff_Substance_Moniter_Large_Roughness.1001
+    second: {fileID: 2800000, guid: bdadbd24b92525d47a3d79ffb9bc0bc6, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

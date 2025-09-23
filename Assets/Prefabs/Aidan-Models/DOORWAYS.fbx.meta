@@ -3,7 +3,32 @@ guid: 415c35c10f633f94da1fd9307f18dc98
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Revised_walls_Substance_Doors_Type_2_Texture_BaseColor.1001
+    second: {fileID: 2800000, guid: b3163aca0605263448441300e5ed07a3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Revised_walls_Substance_Doors_Type_2_Texture_Height.1001
+    second: {fileID: 2800000, guid: 25b2a667b81da4e479fdd7797fb35c05, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Revised_walls_Substance_Doors_Type_2_Texture_Metalness.1001
+    second: {fileID: 2800000, guid: 2c4827e442e1c7d44810f8140b04d22c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Revised_walls_Substance_Doors_Type_2_Texture_Normal.1001
+    second: {fileID: 2800000, guid: 73ddae16266e73849aca4c2fcddba6e7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Revised_walls_Substance_Doors_Type_2_Texture_Roughness.1001
+    second: {fileID: 2800000, guid: 20f5ae922c1ca7b4096c05dbf13aadf1, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

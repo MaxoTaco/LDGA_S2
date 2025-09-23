@@ -3,7 +3,32 @@ guid: 0edfa679bdaf5604aa3602bb012aea1b
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Computer_Stuff_Substance_Short_Cart_Textures_BaseColor.1001
+    second: {fileID: 2800000, guid: 2e276c39aa0db6d40b93e2f7b0cb4ba0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Computer_Stuff_Substance_Short_Cart_Textures_Height.1001
+    second: {fileID: 2800000, guid: 35c425012c2ec274db830a464410faa2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Computer_Stuff_Substance_Short_Cart_Textures_Metallic.1001
+    second: {fileID: 2800000, guid: 69c250f7d91eb6a45907b16bcef98ad4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Computer_Stuff_Substance_Short_Cart_Textures_Normal.1001
+    second: {fileID: 2800000, guid: 501f43c489ecad5409b17a440ef267c8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Computer_Stuff_Substance_Short_Cart_Textures_Roughness.1001
+    second: {fileID: 2800000, guid: 57854a10f327fb74eb7ad50d09143443, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

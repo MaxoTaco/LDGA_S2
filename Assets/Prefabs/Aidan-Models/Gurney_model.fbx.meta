@@ -3,7 +3,32 @@ guid: 8d4b65222d5e32b4d8474e0883fa5543
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Gurneys_Substance_Gurney_texture_BaseColor.1001
+    second: {fileID: 2800000, guid: acb68a2234230cb4dabc2094f00c8626, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Gurneys_Substance_Gurney_texture_Height.1001
+    second: {fileID: 2800000, guid: dd6ddac8ef06ec547b093cf6692cd1b8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Gurneys_Substance_Gurney_texture_Metallic.1001
+    second: {fileID: 2800000, guid: f64ad0d2c5d2c524aada954d2a58865a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Gurneys_Substance_Gurney_texture_Normal.1001
+    second: {fileID: 2800000, guid: 240d0c57415b3f643990fb407fc3d22e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Gurneys_Substance_Gurney_texture_Roughness.1001
+    second: {fileID: 2800000, guid: fa13e69a831eed64da049df371a8c887, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

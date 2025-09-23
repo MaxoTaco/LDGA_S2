@@ -3,7 +3,32 @@ guid: 3457fce1131c2cf4fa176b2337c79253
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Gurneys_Substance_Surgical_Table_Texture_BaseColor.1001
+    second: {fileID: 2800000, guid: a9ae6599e17b4fa47ab3cd72c4658e69, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Gurneys_Substance_Surgical_Table_Texture_Height.1001
+    second: {fileID: 2800000, guid: e859be7c1af7d0b40a65cb986c1b6ab8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Gurneys_Substance_Surgical_Table_Texture_Metallic.1001
+    second: {fileID: 2800000, guid: 4923a64f11987e84186244c46c2cb93a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Gurneys_Substance_Surgical_Table_Texture_Normal.1001
+    second: {fileID: 2800000, guid: 1163ae64527ee5b42bfbb9f517da8a27, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Gurneys_Substance_Surgical_Table_Texture_Roughness.1001
+    second: {fileID: 2800000, guid: 5e0c8faf3530e124ebfdc532d497f722, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
