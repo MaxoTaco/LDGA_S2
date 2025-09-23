@@ -185,6 +185,7 @@ GameObject:
   - component: {fileID: 3062587376801348795}
   - component: {fileID: 3168796274016092085}
   - component: {fileID: 4544558688882037873}
+  - component: {fileID: 1623716421790265204}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -299,6 +300,25 @@ MonoBehaviour:
   cameraTransform: {fileID: 8940344952038481089}
   playerBody: {fileID: 0}
   rotateSpeed: 10
+--- !u!114 &1623716421790265204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2752617568595156546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 287fb9baeb1c5ef4aae0292e2fc3808f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Interacting
+  interactRange: 3
+  interactableLayer:
+    serializedVersion: 2
+    m_Bits: 8
+  reticle: {fileID: 8366303920374630794}
+  reticleAnimationSpeed: 20
+  reticleScaleFactor: 1.5
 --- !u!1 &4726885801810344897
 GameObject:
   m_ObjectHideFlags: 0
