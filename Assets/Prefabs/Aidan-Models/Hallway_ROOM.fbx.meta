@@ -3,7 +3,27 @@ guid: 7564980aecc51b244a081ed486d76caf
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Revised_walls_Substance_Hallway_Texture_BaseColor.1001
+    second: {fileID: 2800000, guid: 9ca9fa51c1c8d4d4abb8fdb35e567b28, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Revised_walls_Substance_Hallway_Texture_Height.1001
+    second: {fileID: 2800000, guid: 3ce5cc3c8b039e24d83cbafa7a192355, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Revised_walls_Substance_Hallway_Texture_Normal.1001
+    second: {fileID: 2800000, guid: 8e2b0ea082c2f0c4cb568a81b55c5f4a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Revised_walls_Substance_Hallway_Texture_Roughness.1001
+    second: {fileID: 2800000, guid: bb8f473df88eb6f4bb2d0455b303f09d, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
