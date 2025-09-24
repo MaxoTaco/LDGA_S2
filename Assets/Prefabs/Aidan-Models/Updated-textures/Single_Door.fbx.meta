@@ -1,34 +1,9 @@
 fileFormatVersion: 2
-guid: ad7928a88cd3e314b99be70d138e9afd
+guid: 2b0d883c6e86b7e47b350e8b3763e0ab
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Revised_walls_Substance_Supply_Room1_BaseColor.1001
-    second: {fileID: 2800000, guid: d44ae2f049a28b04db9f1bed2dfcdcf7, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Revised_walls_Substance_Supply_Room1_Height.1001
-    second: {fileID: 2800000, guid: 174b790bb0dd7c24cb3824687e073fbd, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Revised_walls_Substance_Supply_Room1_Metalness.1001
-    second: {fileID: 2800000, guid: c83d596d80aeab24f88828cd7db0c478, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Revised_walls_Substance_Supply_Room1_Normal.1001
-    second: {fileID: 2800000, guid: 0e76fbda47961214eb644cbaf86f5a55, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Revised_walls_Substance_Supply_Room1_Roughness.1001
-    second: {fileID: 2800000, guid: 457886a4d8f85b646b7929a768547bdd, type: 3}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0

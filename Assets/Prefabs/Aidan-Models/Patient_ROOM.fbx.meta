@@ -3,7 +3,32 @@ guid: bc7316274da3b1c4b97193b6755867f0
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Revised_walls_Substance_Patient_Room1_BaseColor.1001
+    second: {fileID: 2800000, guid: a16caf3233941d04b9512c8f70555983, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Revised_walls_Substance_Patient_Room1_Height.1001
+    second: {fileID: 2800000, guid: beb966eee8cc70941abeb4579d448d4e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Revised_walls_Substance_Patient_Room1_Metalness.1001
+    second: {fileID: 2800000, guid: bd4fcdd85dc3fe04b952ad0601c61e44, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Revised_walls_Substance_Patient_Room1_Normal.1001
+    second: {fileID: 2800000, guid: ad1a0b6f130b04d48b4f56bdbcce1761, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Revised_walls_Substance_Patient_Room1_Roughness.1001
+    second: {fileID: 2800000, guid: 08d2a77f17925b0458e00bb9eccd0dcc, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
