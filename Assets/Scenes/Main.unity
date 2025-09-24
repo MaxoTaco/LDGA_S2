@@ -1292,7 +1292,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayParticle
   waitTime: 0
-  particle: {fileID: 0}
+  particle: {fileID: 1922019020}
 --- !u!1 &447988644 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -6763858364670572316, guid: f18aff5bea6dcd04e86a382271cede7c, type: 3}
@@ -6433,6 +6433,11 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 287689311}
   m_SourcePrefab: {fileID: 100100000, guid: 78468f9f23da842429c8633ee57b0a6b, type: 3}
+--- !u!198 &1922019020 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 1925812857420243906, guid: 9cbb052fe65b13b4d905f0d58ab9b649, type: 3}
+  m_PrefabInstance: {fileID: 229367930}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1930577493
 PrefabInstance:
   m_ObjectHideFlags: 0
