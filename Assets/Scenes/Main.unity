@@ -1942,7 +1942,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0437ba92b554f2a45afc5ed88f520c13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RadioSound
-  player: {fileID: 0}
+  player: {fileID: 1195780803}
   maxDistance: 10
 --- !u!1 &636021759 stripped
 GameObject:
@@ -3754,6 +3754,11 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 4.5498886, y: 1.9999999, z: 4.7074823}
   m_Center: {x: -1.201696, y: 0, z: 1.3537432}
+--- !u!4 &1195780803 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5938023418300104350, guid: 024ded8935f984c4893440917ae9892e, type: 3}
+  m_PrefabInstance: {fileID: 1500679193}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1226006741 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3369602132751625899, guid: 8fc6bf6dfa4d8eb46b9cb4ad2a680fe7, type: 3}
@@ -4691,30 +4696,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1667001657002492548, guid: 024ded8935f984c4893440917ae9892e, type: 3}
-      propertyPath: m_ClearFlags
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1667001657002492548, guid: 024ded8935f984c4893440917ae9892e, type: 3}
-      propertyPath: m_BackGroundColor.a
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1667001657002492548, guid: 024ded8935f984c4893440917ae9892e, type: 3}
-      propertyPath: m_BackGroundColor.b
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1667001657002492548, guid: 024ded8935f984c4893440917ae9892e, type: 3}
-      propertyPath: m_BackGroundColor.g
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1667001657002492548, guid: 024ded8935f984c4893440917ae9892e, type: 3}
-      propertyPath: m_BackGroundColor.r
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3753959104171674122, guid: 024ded8935f984c4893440917ae9892e, type: 3}
-      propertyPath: rotateSpeed
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 4726885801810344897, guid: 024ded8935f984c4893440917ae9892e, type: 3}
       propertyPath: m_Name
       value: Player
@@ -4757,54 +4738,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5938023418300104350, guid: 024ded8935f984c4893440917ae9892e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7566418586182900790, guid: 024ded8935f984c4893440917ae9892e, type: 3}
-      propertyPath: m_Range
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 7566418586182900790, guid: 024ded8935f984c4893440917ae9892e, type: 3}
-      propertyPath: m_Color.b
-      value: 0.61698115
-      objectReference: {fileID: 0}
-    - target: {fileID: 7566418586182900790, guid: 024ded8935f984c4893440917ae9892e, type: 3}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7566418586182900790, guid: 024ded8935f984c4893440917ae9892e, type: 3}
-      propertyPath: m_Color.r
-      value: 0.98779005
-      objectReference: {fileID: 0}
-    - target: {fileID: 7566418586182900790, guid: 024ded8935f984c4893440917ae9892e, type: 3}
-      propertyPath: m_DrawHalo
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7566418586182900790, guid: 024ded8935f984c4893440917ae9892e, type: 3}
-      propertyPath: m_Intensity
-      value: 2.9
-      objectReference: {fileID: 0}
-    - target: {fileID: 7566418586182900790, guid: 024ded8935f984c4893440917ae9892e, type: 3}
-      propertyPath: m_SpotAngle
-      value: 60
-      objectReference: {fileID: 0}
-    - target: {fileID: 7566418586182900790, guid: 024ded8935f984c4893440917ae9892e, type: 3}
-      propertyPath: m_Lightmapping
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 7566418586182900790, guid: 024ded8935f984c4893440917ae9892e, type: 3}
-      propertyPath: m_Shadows.m_Type
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7566418586182900790, guid: 024ded8935f984c4893440917ae9892e, type: 3}
-      propertyPath: m_BounceIntensity
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7566418586182900790, guid: 024ded8935f984c4893440917ae9892e, type: 3}
-      propertyPath: m_Shadows.m_Strength
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8014994554604032124, guid: 024ded8935f984c4893440917ae9892e, type: 3}
-      propertyPath: m_PlayOnAwake
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -4954,6 +4887,10 @@ PrefabInstance:
     - target: {fileID: 2704670949172540433, guid: 8fc6bf6dfa4d8eb46b9cb4ad2a680fe7, type: 3}
       propertyPath: m_Name
       value: Door (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2704670949172540433, guid: 8fc6bf6dfa4d8eb46b9cb4ad2a680fe7, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3369602132751625899, guid: 8fc6bf6dfa4d8eb46b9cb4ad2a680fe7, type: 3}
       propertyPath: m_LocalScale.y
@@ -5329,6 +5266,10 @@ PrefabInstance:
     - target: {fileID: 2704670949172540433, guid: 8fc6bf6dfa4d8eb46b9cb4ad2a680fe7, type: 3}
       propertyPath: m_Name
       value: Door (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2704670949172540433, guid: 8fc6bf6dfa4d8eb46b9cb4ad2a680fe7, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3369602132751625899, guid: 8fc6bf6dfa4d8eb46b9cb4ad2a680fe7, type: 3}
       propertyPath: m_LocalScale.y
